@@ -1,0 +1,38 @@
+
+        #terminal {
+            width: 80%;
+            max-width: 600px;
+            background-color: #333;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+            overflow: hidden;
+        }
+        #terminal-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100%;
+        }
+        #terminal-title {
+            font-size: 1.5em;
+            color: #fff;
+            margin-bottom: 10px;
+            text-align:center;
+        }
+
+
+        .terminal-style #terminal .prompt span {
+            font-weight: bold; /* Optionnel : mettre le texte en gras */
+        }
+
+        .terminal-style #terminal .prompt span:first-child {
+            color: #2ecc71; /* Couleur du texte vert nuancé pour la première partie du prompt */
+        }
+
+        .terminal-style #terminal .prompt span:last-child {
+            color: #ffffff; /* Couleur du texte blanc pour la seconde partie du prompt */
+        }
+        .output {
+            color: #fff; /* Couleur du texte de la sortie */
+        }

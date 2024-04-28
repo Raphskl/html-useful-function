@@ -1,0 +1,23 @@
+main {
+    max-width: 60%; /* Ajustez la largeur max selon vos préférences */
+    margin: 10px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+}
+h3 {
+    text-align:center;
+    color: #333;
+    }
+p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    color: #333;
+    margin-bottom: 15px;
+    text-align: center;
+}
